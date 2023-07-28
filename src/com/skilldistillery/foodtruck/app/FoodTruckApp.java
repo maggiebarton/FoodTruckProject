@@ -26,7 +26,7 @@ public class FoodTruckApp {
 
 				System.out.print("Enter the type of food : ");
 				String type = sc.nextLine();
-				System.out.print("Enter the rating on (1-5): ");
+				System.out.print("Enter the rating (1-5): ");
 				int rating = sc.nextInt();
 				sc.nextLine();
 
@@ -37,8 +37,27 @@ public class FoodTruckApp {
 				truck.setRating(rating);
 				fleet[i] = truck;
 			}
+
 		}
+
+		displayMenu();
+		System.out.print("Choose Option: ");
+		String userChoice = sc.nextLine();
+
 		sc.close();
 	}
 
+	public void displayMenu() {
+		System.out.println();
+		System.out.println("*********************************");
+		System.out.println("***       Food Truck Menu     ***");
+		System.out.println("***     Choose Option (1-4)   ***");
+		System.out.println("*********************************");
+		System.out.println();
+		System.out.println("1. Show All Food Trucks");
+		System.out.println("2. Show Average Food Truck Rating");
+		System.out.println("3. Show Highest-Rated Food Truck");
+		System.out.println("4. Quit");
+
+	}
 }
