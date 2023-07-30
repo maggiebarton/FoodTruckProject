@@ -9,7 +9,6 @@ public class FoodTruckApp {
 	private boolean quitEnterFoodTrucks;
 	private boolean quitMainMenu;
 	Scanner sc = new Scanner(System.in);
-//	FoodTruck truck = new FoodTruck();
 
 	public static void main(String[] args) {
 		FoodTruckApp app = new FoodTruckApp();
