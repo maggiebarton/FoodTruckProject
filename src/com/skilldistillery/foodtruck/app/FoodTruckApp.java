@@ -134,7 +134,7 @@ public class FoodTruckApp {
 			}
 		}
 		averageRating = sum / numberOfTrucks;
-		System.out.println("Average Food Truck Rating: " + averageRating);
+		System.out.printf("Average Food Truck Rating: %.2f%n", averageRating);
 
 	}
 
