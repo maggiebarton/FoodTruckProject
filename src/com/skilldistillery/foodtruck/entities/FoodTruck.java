@@ -5,19 +5,25 @@ public class FoodTruck {
 	private String type;
 	private int rating;
 	private int id;
-	private static int nextTruckId =0;
-	
+	private static int nextTruckId = 0;
+
 	@Override
 	public String toString() {
-		return "FoodTruck [name=" + name + ", type=" + type + ", rating=" + rating + ", id=" + id + "]";
-	}
+		//combined two strings with new lines after to read data easier (and it looks way cleaner)
+		String one = "ID: " + id + "\t\tFood Truck Name: " + name+ "\n";
+		String two = "Rating: " + rating + "\tType of Food: " + type + "\n";
+		return one + two;
 	
-	public FoodTruck() {
+	}
+
+	public FoodTruck(String name, String type, int rating) {
+		this.name = name;
+		this.type = type;
+		this.rating = rating;
 		id = nextTruckId;
 		nextTruckId++;
 	}
-	
-	
+
 	public String getName() {
 		return name;
 	}
@@ -57,7 +63,5 @@ public class FoodTruck {
 	public static void setNextTruckId(int nextTruckId) {
 		FoodTruck.nextTruckId = nextTruckId;
 	}
-
-	
 
 }
