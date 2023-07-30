@@ -25,13 +25,13 @@ public class FoodTruckApp {
 			enterFoodTrucks();
 		} while (!quitEnterFoodTrucks);
 
-		//user enters main menu and loops through it until they type '4' to quit
+		// user enters main menu and loops through it until they type '4' to quit
 		do {
 			mainMenu();
 
 		} while (!quitMainMenu);
 
-		//farewell
+		// farewell
 		System.out.println("Thanks for using the Food Truck App. Goodbye!");
 
 		sc.close();
@@ -67,14 +67,6 @@ public class FoodTruckApp {
 
 			// create food trucks and assign user input + id
 			fleet[i] = new FoodTruck(name, type, rating);
-		}
-	}
-
-	public void displayTrucks() {
-		for (FoodTruck foodTruck : fleet) {
-			if (foodTruck != null) {
-				System.out.println(foodTruck);
-			}
 		}
 	}
 
@@ -120,6 +112,14 @@ public class FoodTruckApp {
 			quitMainMenu = true;
 			break;
 
+		}
+	}
+
+	public void displayTrucks() {
+		for (FoodTruck foodTruck : fleet) {
+			if (foodTruck != null) {
+				System.out.println(foodTruck);
+			}
 		}
 	}
 
