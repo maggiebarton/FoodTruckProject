@@ -14,7 +14,7 @@ I think the biggest Lesson Learned on this project was dealing with "null" Objec
 
 in the displayTrucks method, because I didn't want to see "null" Trucks. Including this logic for the averageRating and highestRating was crucial for my sysouts to display correctly and avoid compiler errors.
 
-Also, I included a heavy use of methods in this project. I was proud of this work, because it's something I wanted to to in my previous project and I accomplished it here. My code is readable, troubleshooting was easier, and honestly, it just looks better.
+Also, I included a heavy use of methods in this project. I was proud of this work, because it's something I wanted to do in my previous project and I accomplished it here. My code is readable, troubleshooting was easier, and honestly, it just looks better.
 
 Furthermore, while building this project I was really thinking about how the user will interact with the app. This was extremely helpful in design. From simple things like explicitly stating instructions, to more "behind the scenes" actions like ignoring case when users type 'quit.'
 
