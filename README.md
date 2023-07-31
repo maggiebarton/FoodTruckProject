@@ -2,7 +2,7 @@
 
 
 ## Overview
-Welcome to the Food Truck App! Users can store data for up to five of their favorite Food Trucks using the "Enter Food Trucks Menu." In the Main Menu, users can display all their saved Food Trucks, calculate and display the average rating of all their Food Trucks, and/or display the highest Rated Food Truck. Users can type 'quit' in the Enter Trucks Menu and the Main Menu to quit the menu or app, respectively.
+Welcome to the Food Truck App! Users can store data for up to five of their favorite Food Trucks using the "Enter Food Trucks Menu." In the Main Menu, users can display all their saved Food Trucks, calculate and display the average rating of all their Food Trucks, and/or display the highest Rated Food Truck. Users can type 'quit' in the Enter Trucks Menu and type '4' in the Main Menu to quit the menu or app, respectively.
 
 
 ## Lessons Learned
