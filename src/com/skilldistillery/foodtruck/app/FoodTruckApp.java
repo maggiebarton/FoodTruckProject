@@ -53,7 +53,8 @@ public class FoodTruckApp {
 			System.out.println("Type 'quit' to access Main Menu.");
 			System.out.print("Enter the name of a Food Truck: ");
 			String name = sc.nextLine();
-			if (name.equals("quit")) {
+
+			if (name.equalsIgnoreCase("quit")) {
 				quitEnterFoodTrucks = true;
 				return;
 			}
